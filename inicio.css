@@ -8,7 +8,7 @@ body {
     overflow: hidden;
 }
 
-.ctr::before {
+.crt::before {
     content: "";
     display: block;
     position: absolute;
