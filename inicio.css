@@ -3,6 +3,11 @@ body {
     background-repeat: repeat;
 }
 
+.crt {
+    position: relative;
+    overflow: hidden;
+}
+
 .ctr::before {
     content: "";
     display: block;
