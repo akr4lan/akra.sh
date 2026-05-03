@@ -1,0 +1,117 @@
+body {
+    background-image: url("imagenes_index/Starbg.gif");
+    background-repeat: repeat;
+}
+
+h1 {
+    background-color: black;
+    color: whitesmoke;
+    text-align: center;
+}
+
+p {
+    background-color: black;
+    color: whitesmoke;
+    text-align: center;
+}
+
+figcaption {
+    color:rgb(145, 145, 145);
+    font-size: 0.8rem;
+}
+
+
+img {
+    width: 40%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    padding:5px;
+}
+
+.caja {
+    background-color: black;
+    border: 2px solid whitesmoke;
+    padding: 20px;
+    margin: 10%;
+    justify-content: left;
+}
+
+.img_flotante_dcha {
+    float: right;
+    margin: 0 10px 10px 20px;
+    text-align: center;
+}
+
+.img_flotante_dcha img {
+    height: 200px; 
+    width: auto;
+    display: block;
+}
+
+.img_flotante_izda {
+    float: left;
+    margin: 0 10px 10px 20px;
+    text-align: center;
+}
+
+.img_flotante_izda img {
+    height: 200px; 
+    width: auto;
+    display: block;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color:whitesmoke;
+    text-align: center;
+    padding: 20px;
+    border-top: 2px solid whitesmoke;
+}
+
+.email {
+    width: 40px;
+    margin: 0;
+    padding-left: 20px;
+}
+
+header {
+    background-color: black;
+    color:whitesmoke;
+    text-align: center;
+    padding: 20px;
+    border-bottom: 2px solid whitesmoke;
+}
+
+a {
+    color:rgb(195, 31, 228);
+    text-decoration:none;
+}
+
+.subdominios {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.nav-item {
+    position: relative;
+    text-align: center;
+}
+
+.nav-item-nuevo img {
+    height: 20px;
+    width: auto;
+}
+
+.subdominios .nav-item:not(:last-child)::after {
+    content: "|";
+    color: whitesmoke;
+    margin-left: 10px;
+    margin-right: 10px;
+}
