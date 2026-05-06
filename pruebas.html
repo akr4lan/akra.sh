@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script>
+        function myfunction() {
+            document.getElementById("demo").innerHTML = "Paragraph changed"
+        }
+    </script>
+</head>
+<body>
+
+    <h2 id="straight bs">What Can JavaScript Do?</h2>
+
+    <p id="demo">JavaScript can change HTML content.</p>
+    <button type="button" onclick="myfunction()">Usa la puta función</button>
+
+
+    <button type="button" onclick='document.getElementById("demo").innerHTML = "Hello JavaScript!"'>Click Me!</button>
+    <button type="button" onclick='document.getElementById("demo").innerHTML = "Hello JavaScript"'>click me</button>
+
+    <p>In this case JavaScript changes the value of the src (source) attribute of an image.</p>
+
+    <button type="button" onclick="document.getElementById('demo').style.fontSize='35px'">Click Me!</button>
+    <button type="button" onclick="document.getElementById('demo').style.fontSize='15px'">Make the text smaller</button>
+    <button type="button" onclick="document.getElementById('demo').style.display='none'">Tf does this make</button>
+    <button type="button" onclick="document.getElementById('demo').style.display='block'">xd</button>
+
+    <script>
+        document.getElementById("demo").innerHTML = "I can change demo with this single script";
+    </script>
+
+    <script src="pruebas.js"></script>
+    <button type="button" onclick="myfunction2()">usar la otra función del js</button>
+
+    <p id="mouse">i gotta type some more text because imma run out of ids</p>
+    <button type="button" onclick="bigtext()">make the example text big</button>
+    <script>
+        document.getElementById("mouse").innerText="hello gumi ig";
+    </script>
+    
+    <script>
+        document.write(6 + 7);
+    </script>
+
+    <button type="button" onclick="document.write(6+4)">try</button>
+
+    <!-- <script>
+        alert(5);
+    </script>  -->
+
+    <script>
+        console.log(5);
+    </script>
+
+    <button onclick="window.print()">Print this page</button>
+
+    <p id="dolly">say hi to dolly</p>
+    <button onclick="hello()">this is your only way</button>
+    
+    <p id="hora"></p>
+    <script>
+        if (new Date().getHours() < 18) {
+            document.getElementById("hora").innerHTML="good day!"
+        } else if (new Date().getHours() > 21) {
+            document.getElementById("hora").innerHTML="good night!"
+        } else {
+            document.getElementById("hora").innerHTML="good evening!"
+        }
+    </script>
+
+    <p id="web"></p>
+    <script>
+        let text;
+        if (Math.random() < 0.5) {
+            text = "<a href='https://akr4lan.github.io/akra.sh'>mi web</a>"
+        } else {
+            text = "<a href='https://hrt.gumi.gay'>la web de gumi</a>"
+        }
+        document.getElementById("web").innerHTML = text;
+    </script>
+    
+    <p id="age"></p>
+    <button onclick = "age()">locurita con lo de la edad</button>
+
+    <p id="day"></p>
+    <script>
+        switch (new Date().getDay()) {
+            case 0:
+                day = "sunday";
+                break;
+            case 1:
+                day = "monday";
+                break;
+            case 2:
+                day = "Tuesday";
+                break;
+            case 3:
+                day = "Wednesday";
+                break;
+            case 4:
+                day = "Thursday";
+                break;
+            case 5:
+                day = "Friday";
+                break;
+            default:
+                day = "Saturday";
+        }
+
+        document.getElementById("day").innerHTML = day;
+    </script>
+
+
+
+</body>
+</html>
