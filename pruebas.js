@@ -74,3 +74,42 @@ while (i < 10) {
 Boolean(10 > 9);
 // anything with a value is true
 
+for (let i = 0; i < numbers.length; i++) {
+    text += numbers[i] + "<br>";
+}
+
+for (let i = 0; i < 5; i++) {
+    text += "The number is " + i + "<br>" 
+}
+
+while (i<10) {
+    text += "The number is " + i;
+    i++;
+}
+
+do {
+    text += "The number is " + i;
+    i++;
+}
+while (i < 10);
+
+for (let i = 0; i < 10; i++) {
+    if (i === 3) {
+        break;
+    }
+    text += "the number is " + i + "<br>";
+}
+
+loop1: for (let j = 1; j < 5; j++) {
+    loop2: for (let i = 1; i < 5; i++) {
+        if (i === 3) {break loop1;}
+        text += i;
+    }
+}
+
+for (let i = 1; i < 10; i++) {
+    if (i === 3) { continue; }
+    text += "The number is " + i + "<br>";
+}
+// Se salta el valor del 3
+
