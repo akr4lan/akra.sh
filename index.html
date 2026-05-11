@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>akra.sh</title>
     <link rel="stylesheet" href="index.css">
     <script defer src="swatch.js"></script>
+    <script defer src="online.js"></script>
 </head>
-<body>
+
+<body onload="onlineStatus()">
     <div class="container_flex">
         <div class="pantalla crt">
             <pre class="ascii">
@@ -29,25 +32,25 @@
                         <strong>❤ Bienvenidx a akra.sh!</strong>
                     </header>
                     <p>
-                        Básicamente esta es la página en la que voy a hablar de mis cositas y un blog 
+                        Básicamente esta es la página en la que voy a hablar de mis cositas y un blog
                         al mismo tiempo. Este es mi espacio personal creado en el 15 de abril de 2025.
                         <br><br>
-                        
+
                         Soy una estudiante de biotecnología, pero me gusta programar y escribir en mi tiempo libre.
-                        También toco la guitarra y el bajo y hago cosas chulas, puedes leer más sobre mí 
+                        También toco la guitarra y el bajo y hago cosas chulas, puedes leer más sobre mí
                         <a href="akr4lan.github.io/akra.sh/yo">aquí</a>!
                     </p>
                 </div>
 
-                <div class="pfp">
-                    <img src="index/pfp verde trans.png" alt="akra pixel art">
-                    <p></p>
-                </div> 
+                <div>
+                    <div class="pfp"><img src="index/pfp verde trans.png" alt="akra pixel art"></div>
+                    <div id="online-status"></div>
+                </div>
             </div>
-            
+
             <div class="text">
                 Algunas cosas sobre mí:
-                <li>Soy española y estadounidense. Llevo viviendo mucho en España y 
+                <li>Soy española y estadounidense. Llevo viviendo mucho en España y
                     realmente llevo mucho tiempo sin haber visitado los Estados Unidos,
                     y más con la situación actual.
                 </li>
@@ -59,11 +62,12 @@
                     La carrera me está matando.
                 </li>
                 <li>
-                    Paso la mayoría de mi tiempo online en 
+                    Paso la mayoría de mi tiempo online en
                     <a class="megu" href="discord.gg/megucord">megucord</a>, una comunidad
-                    trans hecha por 
+                    trans hecha por
                     <a href="https://x.com/pcppup?s=20">Megumi</a>, haciendo cosas random :3.
                 </li>
+
             </div>
         </div>
 
@@ -79,16 +83,17 @@
             <a href="akr4lan.github.io/akra.sh/blog">> Blog</a><br>
             <a href="akr4lan.github.io/akra.sh/yo">> Sobre mi</a><br>
             <a href="akr4lan.github.io/akra.sh/projects">> Proyectos</a><br>
-            
+
 
         </div>
     </div>
 
     <footer class="footer">
-                Cualquier cosa, si quieres contactarme mándame un correo a&nbsp;
-                <a href="mailto:akralan2006@gmail.com">akralan2006@gmail.com</a>
-                <img src="imagenes_index/Email.gif" alt="email" class="email">   
-            </footer>
+        Cualquier cosa, si quieres contactarme mándame un correo a&nbsp;
+        <a href="mailto:akralan2006@gmail.com">akralan2006@gmail.com</a>
+        <img src="imagenes_index/Email.gif" alt="email" class="email">
+    </footer>
 
 </body>
+
 </html>

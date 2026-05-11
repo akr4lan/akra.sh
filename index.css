@@ -108,7 +108,7 @@ img {
 }
 
 .pfp {
-    display:flex;
+    display:block;
     justify-content: center;
     align-items: center;
     border: 2px solid rgb(41, 43, 42);
